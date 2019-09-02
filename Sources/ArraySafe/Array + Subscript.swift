@@ -9,7 +9,7 @@
 import Foundation
 
 extension Array {
-    subscript(safe index : Index) -> Element? {
+    public subscript(safe index : Index) -> Element? {
         if self.count > index {
             return self[index]
         }
